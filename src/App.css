@@ -1,0 +1,14 @@
+.all-test-banner {
+  background-image: url("https://img.freepik.com/free-photo/science-engineer-using-microscope-analyze-dna-sample-laboratory-woman-biologist-working-with-microscopic-glass-lens-lab-tool-computer-wearing-protective-goggles-gloves_482257-30875.jpg?w=740&t=st=1701110536~exp=1701111136~hmac=d6724e5b2c098394b7c65ab3724e7a85dec2325add28bb51b45bf75957fc3fd5");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.details-banner {
+  background-image: url("https://img.freepik.com/premium-photo/modern-medical-consultation-office-with-nobody-it-hospital-private-clinic-room-with-glass-walls-computers-front-desk-healthcare-system-clean-medicine-cabinet-treatment-equipment-professio_482257-5792.jpg?w=740");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
