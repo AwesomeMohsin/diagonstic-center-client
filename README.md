@@ -5,7 +5,7 @@
 - User Authentication: Users can register and log in to the diagnostic center website using their email.
   
 - Feature Tests Display: Users can view a comprehensive list of available feature tests offered by the diagnostic center.
-- 
+
 - Doctors' Recommendations: Access to personalized recommendations from doctors based on test results or health history.
   
 - Test Catalog: A user-friendly interface allowing individuals to browse and explore all available tests offered by the diagnostic center.
