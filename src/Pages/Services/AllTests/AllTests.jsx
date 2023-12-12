@@ -8,6 +8,7 @@ import DatePicker from "../../../components/DatePicker";
 import { format } from "date-fns";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ScrollToTop from "../../../components/ScrollToTop";
 // ..
 AOS.init();
 
@@ -68,6 +69,7 @@ const AllTests = () => {
 
     return (
         <div className="max-w-7xl mx-auto ">
+              <ScrollToTop />
 
             <div className="all-test-banner aspect-auto flex justify-center">
 

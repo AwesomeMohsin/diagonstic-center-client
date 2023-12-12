@@ -4,12 +4,14 @@ import FeaturedTests from "../Services/FeaturedTest/FeaturedTests";
 import Recommendations from "./Recommendations/Recommendations";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; // You can also use <link> for styles
+import ScrollToTop from "../../components/ScrollToTop";
 // ..
 AOS.init();
 
 const Home = () => {
     return (
         <div>
+              <ScrollToTop />
             <Helmet>
                 <title>Awesome | Home</title>
             </Helmet>
@@ -33,7 +35,7 @@ const Home = () => {
 
 
             <Recommendations></Recommendations>
-
+          
         </div>
     );
 };

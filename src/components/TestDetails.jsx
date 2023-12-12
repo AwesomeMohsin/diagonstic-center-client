@@ -11,6 +11,7 @@ import useAxiosSecure from "../hooks/useAxiosSecure";
 import { useQuery } from "@tanstack/react-query";
 import Spinner from "./Spinner";
 import useUser from "../hooks/useUser";
+import ScrollToTop from "./ScrollToTop";
 
 
 
@@ -150,6 +151,7 @@ const TestDetails = () => {
 
     return (
         <div className="">
+            <ScrollToTop />
             <div className="details-banner h-auto aspect-auto">
                 <div className="overlay">
                     <div className="flex justify-center items-center h-96 max-w-7xl mx-auto px-5 text-center flex-col">
