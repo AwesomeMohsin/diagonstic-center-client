@@ -1,12 +1,17 @@
 import { FaQuoteLeft, FaQuoteRight, FaStar } from "react-icons/fa6";
 import SectionTitle from "../../components/SectionTitle";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Reviews = () => {
   return (
     <div className="pb-20">
       <SectionTitle title="What our Client say"></SectionTitle>
 
-      <div className=" mx-auto  grid grid-cols-1 xl:grid-cols-2 justify-center">
+      <div className=" mx-auto  grid grid-cols-1 xl:grid-cols-2 justify-center" data-aos="fade-up"
+                    data-aos-delay="1000">
         <div className="md:flex items-center  bg-teal-100 w-9/12 mx-auto shadow-xl mt-8 rounded-t-full gap-6 md:rounded-l-full rounded-r-xl">
           <figure className="w-72 flex justify-center items-center mx-auto">
             <img src="https://www.rri.res.in/sites/default/files/2022-09/Abhisek%20Tamang.jpg"  className="w-72 h-72 rounded-full" />

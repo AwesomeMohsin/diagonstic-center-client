@@ -1,11 +1,16 @@
 import SectionTitle from "../../components/SectionTitle";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Faq = () => {
   return (
     <div>
       <SectionTitle title="FAQ"></SectionTitle>
       
-      <div className="max-w-7xl mx-auto px-5 space-y-4 my-10">
+      <div className="max-w-7xl mx-auto px-5 space-y-4 my-10" data-aos="fade-up"
+                    data-aos-delay="1000">
         <div className="collapse bg-blue-50 shadow-lg">
           <input type="radio" name="my-accordion-1" checked="checked" />
           <div className="collapse-title text-xl font-medium">

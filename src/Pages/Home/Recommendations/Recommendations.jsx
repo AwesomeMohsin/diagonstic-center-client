@@ -6,7 +6,10 @@ import { useEffect, useState } from "react";
 import useAxiosPublic from "../../../hooks/useAxiosPublic";
 import { useQuery } from "@tanstack/react-query";
 import Spinner from "../../../components/Spinner";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Recommendations = () => {
 
@@ -51,7 +54,7 @@ const Recommendations = () => {
     return (
         <div
             className="py-20"
-            data-aos="fade-up" data-aos-delay="500"
+            data-aos="fade-up" data-aos-delay="1000"
 
 
         >

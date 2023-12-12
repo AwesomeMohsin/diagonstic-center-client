@@ -6,7 +6,10 @@ import { useEffect, useState } from "react";
 import Spinner from "../../../components/Spinner";
 import DatePicker from "../../../components/DatePicker";
 import { format } from "date-fns";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const AllTests = () => {
 
@@ -75,7 +78,8 @@ const AllTests = () => {
             </div>
             <SectionTitle title='All Tests'></SectionTitle>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4" data-aos="fade-up"
+                    data-aos-delay="1000">
 
                 {
                     products?.map(test => <TestCard

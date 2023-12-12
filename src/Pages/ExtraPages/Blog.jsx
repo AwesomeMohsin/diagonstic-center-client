@@ -1,15 +1,19 @@
 import SectionTitle from "../../components/SectionTitle";
-
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+// ..
+AOS.init();
 
 const Blog = () => {
   return (
     <div>
       <SectionTitle title="Blog"></SectionTitle>
 
-      <div className="flex flex-col justify-center items-center max-w-7xl mx-auto my-10 gap-10">
+      <div className="flex flex-col justify-center items-center max-w-7xl mx-auto my-10 gap-10" data-aos="fade-up"
+                    data-aos-delay="1000">
 
 
-        <div className="flex flex-col  md:flex-row justify-around gap-10 items-center">
+        <div className="flex flex-col  md:flex-row justify-around gap-10 items-center" >
           <img className="w-2/5" src="https://domf5oio6qrcr.cloudfront.net/medialibrary/2293/l0908b16207233934035.jpg" alt="" />
 
           <div className="space-y-3 pb-4">
